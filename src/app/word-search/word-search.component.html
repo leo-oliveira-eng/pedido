@@ -1,0 +1,32 @@
+<div class="container">
+    <h1>Caça-palavras</h1>
+    <p>{{ getSentence() }}</p>
+    <div *ngIf="allWordsFound" class="buttons-container">
+      <button mat-raised-button color="primary" (click)="onYesClick()">
+        SIM
+      </button>
+      <button
+        mat-raised-button
+        color="warn"
+        class="movable-button"
+        (mouseenter)="onNoHover($event)"
+      >
+        NÃO
+      </button>
+    </div>
+    <div class="grid">
+      <div *ngFor="let row of wordGrid; let i = index" class="row">
+        <span
+          *ngFor="let letter of row; let j = index"
+          class="cell"
+          [ngClass]="{ highlighted: isHighlighted(i, j) }"
+          (mousedown)="onMouseDown(i, j)"
+          (mouseenter)="onMouseEnter(i, j)"
+          (mouseup)="onMouseUp()"
+        >
+          {{ letter }}
+        </span>
+      </div>
+    </div>
+  </div>
+  

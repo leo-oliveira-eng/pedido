@@ -1,0 +1,40 @@
+@use '@angular/material' as mat;
+
+$primary-color: mat.define-palette(mat.$indigo-palette, 500);
+$accent-color: mat.define-palette(mat.$amber-palette, 400, 300, 600);
+$warn-color: mat.define-palette(mat.$red-palette);
+
+$theme-dark: mat.define-dark-theme((
+  color: (
+    primary: $primary-color,
+    accent: $accent-color,
+    warn: $warn-color,
+  ),
+  typography: mat.define-typography-config(),
+));
+
+@include mat.all-component-themes($theme-dark);
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e2f;
+    color: #e0e0e0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #ffd700; /* Harmonize header colors */
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #b0b0b0;
+  }
+  
+  .mat-dialog-container {
+    border-radius: 8px;
+  }
+  
