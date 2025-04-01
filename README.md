@@ -82,4 +82,3 @@ But maybe personalize the message before proposing to *your* crush 😅
 ---
 
 Made with ❤️ by leo-oliveira-eng  
-```
