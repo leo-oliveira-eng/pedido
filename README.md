@@ -1,27 +1,85 @@
-# Jogo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+# 💌 Word Search: Aceita Namorar Comigo?
 
-## Development server
+<p align="center">
+  <a src="https://pedido-wheat.vercel.app/">
+    <img 
+        width="49%"
+        src="./src/assets/screenshot_1.png"
+    />  
+  </a>
+  
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This is not just another word search game... it’s a *romantic mission*! 🕵️‍♀️❤️
 
-## Code scaffolding
+In this Angular-powered game, your special someone will need to find **three hidden words**:
+```
+ACEITA  
+NAMORAR  
+COMIGO
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Once they find them all, they’ll be met with two choices:
+- ✅ **SIM** — which will lead to love and happily ever after.  
+- ❌ **NÃO** — *but good luck trying to click it!* 😜 (spoiler: it runs away 🏃‍♀️💨)
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 How to Run It Locally
 
-## Running unit tests
+1. **Clone this repo**  
+   ```bash
+   git clone https://github.com/leo-oliveira-eng/pedido.git
+   cd pedido
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. **Install dependencies**  
+   ```bash
+   npm install
+   ```
 
-## Running end-to-end tests
+3. **Run the app**  
+   ```bash
+   ng serve
+   ```
+   Then open `http://localhost:4200` in your browser 💻
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## ✨ Features
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- 🔍 Word search gameplay with mouse drag support
+- 🎨 Responsive design with a dark, modern vibe
+- 💛 Romantic and playful interactions
+- 🏃‍♂️ A “NÃO” button that’s impossible to catch
+- 🥺 A heartfelt message when “SIM” is chosen
+- 🎁 Built with Angular + Angular Material
+
+---
+
+## 📦 Want to Deploy?
+
+You can host it anywhere static apps are welcome:
+- **GitHub Pages**
+- **Vercel**
+- **Netlify**
+- Or share it locally!
+
+---
+
+## 🤓 Nerdy Love FTW
+
+This is a fun and geeky way to express your feelings through code. Whether you're a dev in love or just love fun UI interactions, this is your jam!
+
+---
+
+## 💘 License
+
+MIT — Spread the love (and the code).  
+But maybe personalize the message before proposing to *your* crush 😅
+
+---
+
+Made with ❤️ by leo-oliveira-eng  
+```
